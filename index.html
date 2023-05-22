@@ -1,23 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Odin recipes</h1>
-    <img src="https://domasamikuham.vegeta.hr/wp-content/themes/ostanidomaikuhaj-theme/assets/images/archive-chef-image.png" alt="Chef from Podravka's vegeta">
-    <h1>Welcome!</h1>
-    <p>Welcome to my page where we practice html, but also enjoy tasty treats and amazing food!</p>
-    <div>
-    <ul>
-        <li><a href="recipes/tiramisu.html">Tiramisu recipe</a></li>
-        <li><a href="recipes/tomato_garlic_spread.html">Tomato garlic spread</a></li>
-        <li><a href="recipes/lemon_sorbet.html">Lemon sorbet</a></li>
-    </ul>
-    </div>
-    <a href="#header">Return to top</a>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title class="center">Recipes</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <div>
+        <h1 class="Header">Odin recipes</h1>
+        <img id="logo" class="center" src="https://domasamikuham.vegeta.hr/wp-content/themes/ostanidomaikuhaj-theme/assets/images/archive-chef-image.png" alt="Chef from Podravka's vegeta">
+        <h1 class="center">Welcome!</h1>
+        </div>
+        <h3>Welcome to my page where we practice html, but also enjoy tasty treats and amazing food!</h3>
+        <div class="content">
+            <div class="Recipe">
+                <a href="recipes/tiramisu.html"><img src= "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F9188320.jpg&q=60&c=sc&orient=true&poi=auto&h=512" alt="Picture of the tasty desert"></a>
+                <p>Tiramisu</p>
+            </div>
+            
+        <div class="Recipe">
+            <a href="recipes/tomato_garlic_spread.html"><img src="https://bing.com/th?id=OSK.babc5171e1176455b4138fd1022a6768" alt="Bread slice with the roasted garlic tomato spread on top"></a>
+                <p>Tomato garlic spread</p> 
+            </div>
+        <div class="Recipe">
+            <a href="recipes/lemon_sorbet.html"><img src="https://www.allrecipes.com/thmb/AsaeDh2dWN9zV5DTaLdBfgFV7rA=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/2070552-4d3d2a7d1f654fadabc4ed764c190b32.jpg" alt="A refreshing treat served in the lemon shell"></a>
+                <p>Lemon sorbet</p></div>
+        </div>
+        <a href="#header">Return to top</a>
 </body>
 </html>
